@@ -19,7 +19,7 @@ Let's setup a `1:N` relationship between `articles` and `users`.
 * Let's generate the `user` model
 
 	```
-	rails g model user email:string, password_diges:string
+	rails g model user email:string password_diges:string
 	```
 * Let's generate the `article` model
 
